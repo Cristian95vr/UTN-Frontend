@@ -1,0 +1,74 @@
+/* Estilos para el campo de filtrado */
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+select {
+  width: 150px; /* Ajusta el ancho según tu preferencia */
+  padding: 8px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Estilos para el contenedor de la lista de libros */
+.book-container {
+  margin-top: 20px;
+}
+
+/* Estilos para los elementos de la lista de libros */
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.book-card:hover {
+  transform: scale(1.05);
+}
+
+.book-title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* Estilos para el contenedor del menú */
+.menu-container {
+  margin-bottom: 20px;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1.2em;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 2px;
+}
