@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grilla Bootstrap</title>
+    <!-- Inclusión de Bootstrap desde un CDN -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h2>Experimento con Grilla de Bootstrap</h2>
+      <div class="row">
+        <!-- Columna que ocupa 12 espacios en móviles, 6 en tabletas y 4 en escritorio -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="p-3 border bg-light">Columna 1</div>
+        </div>
+        <!-- Columna que ocupa 12 espacios en móviles y 6 en tabletas y escritorio -->
+        <div class="col-12 col-md-6">
+          <div class="p-3 border bg-light">Columna 2</div>
+        </div>
+        <!-- Columna que ocupa 12 espacios en móviles y se esconde en otros tamaños -->
+        <div class="col-12 d-md-none">
+          <div class="p-3 border bg-light">
+            Columna 3 (visible solo en móviles)
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Opcional: Inclusión de jQuery y Bootstrap JS para funcionalidades adicionales -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
